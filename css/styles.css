@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+body{
+    background-color: lightcyan;
+}
+
+h1{
+    color:white;
+    background-color: cadetblue;
+}
+
+h2{
+    color: white;
+  }
+
+
+  .bg-header{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nv-botom{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: cadetblue;
+    text-decoration: none;
+  }
+
+  .nv-botom:hover{
+    background-color: lightcyan;
+  }
+
+  .bg-section{
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+
+    background-image: url('../assets/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+  .bg-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .bg-main{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 2rem;
+  }
+
+  .card img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 2rem;
+  }
+
+  .section-l{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+.bg-footer{
+    display: flex;
+    background-color: cadetblue;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
+
+.ft-botom{
+    background-color: cadetblue;
+    color: white;
+}
+.section-r{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+.correo{
+    color: white;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .bg-main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  
+    .bg-section {
+      height: 200px;
+    }
+    
+    .bg-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+      }
+    
+      .nv-title {
+        margin-top: 10px;
+        order: -1;
+      }
+  }
+  
+
